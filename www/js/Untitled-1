@@ -1,0 +1,2 @@
+var chocolate = {"name": "BOUNTY", "product": "BOUNTY bar 57g"};
+myJOSN = JSON.stringify(chocolate

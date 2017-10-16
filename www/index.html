@@ -7,15 +7,31 @@
 	<script src="jquery-mobile/jquery-1.8.3.min.js" type="text/javascript"></script>
     <script src="jquery-mobile/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
     <script src="js/index.js"type="text/javascript" charset="utf-8"></script>
+    <script src="js/Untitled-1.js"type="text/javascript" charset="utf-8"></script>
 	<link href="jquery-mobile/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  
-  	<h1>Event counts</h1>
-	<div id="launched"></div>
-	<div id="paused"></div>
-	<div id="resumed"></div>
+<p>Looping through an array using a for in loop:</p>
+
+<p id="demo"></p>
+
+<script>
+
+var myObj, i, x = "";
+myObj = {
+    "name":"John",
+    "age":30,
+    "cars":[ "Ford", "BMW", "Fiat" ]
+};
+
+for (i in myObj.cars) {
+    x += myObj.cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = x;
+
+</script>
 
 </body>
 </html>
